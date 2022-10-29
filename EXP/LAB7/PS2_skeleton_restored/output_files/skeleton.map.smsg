@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at PS2_Interface.v(12): always construct contains both blocking and non-blocking assignments File: D:/Duke/2022 fall/ECE 550/EXP/LAB7/PS2_skeleton_restored/PS2_Interface.v Line: 12

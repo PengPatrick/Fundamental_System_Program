@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/17.0/EXP/LAB3/simulation/qsim
+vFA
+Z1 !s110 1663269441
+!i10b 1
+!s100 dGYVFoGob?JgYFjc_[MUQ0
+I^7gEQFJ[38=YCGhi3;g370
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1663269441
+Z4 8WTM.vo
+Z5 FWTM.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1663269441.000000
+Z9 !s107 WTM.vo|
+Z10 !s90 -work|work|WTM.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@f@a
+vFA_vlg_vec_tst
+R1
+!i10b 1
+!s100 Q>?5o7SQKnWNYCkh1fFic3
+IUJ^_Skn>[>=ng5JPGDk?l0
+R2
+R0
+w1663269440
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+n@f@a_vlg_vec_tst
+vHA
+Z14 !s110 1663268166
+!i10b 1
+!s100 R;;JXUP;DzOn8KX6TQB][3
+I4b6fef1?8aaOMIIfJkXbW2
+R2
+R0
+w1663268158
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+!s108 1663268165.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@h@a
+vHA_vlg_vec_tst
+R14
+!i10b 1
+!s100 _TI9z6JY628=6MQd_dVeS3
+I^XHbE_m]K`k7Gf8kLbdG81
+R2
+R0
+w1663268157
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+!s108 1663268166.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@h@a_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 :=VPOm[QH`]JDQYjh:Blf3
+I?XhaT_M?WZHLgYGWn3PBi2
+R2
+R0
+R3
+R4
+R5
+L0 173
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
