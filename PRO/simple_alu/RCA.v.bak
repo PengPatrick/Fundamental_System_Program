@@ -1,0 +1,47 @@
+module RCA(A, B, Cin, Sum, Cout);
+	input [15:0] A, B;
+	input Cin;
+	output [15:0] Sum;
+	output Cout;
+	
+	Wire C0, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15;
+	Wire S0, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15;
+	
+	FA (A[0], B[0], Cin, S0, C0);
+	FA (A[1], B[1], C0, S1, C1);
+	FA (A[2], B[2], C1, S2, C2);
+	FA (A[3], B[3], C2, S3, C3);
+	FA (A[4], B[4], C3, S4, C4);
+	FA (A[5], B[5], C4, S5, C5);
+	FA (A[6], B[6], C5, S6, C6);
+	FA (A[7], B[7], C6, S7, C7);
+	FA (A[8], B[8], C7, S8, C8);
+	FA (A[9], B[9], C8, S9, C9);
+	FA (A[10], B[10], C9, S10, C10);
+	FA (A[11], B[11], C10, S11, C11);
+	FA (A[12], B[12], C11, S12, C12);
+	FA (A[13], B[13], C12, S13, C13);
+	FA (A[14], B[14], C13, S14, C14);
+	FA (A[15], B[15], C14, S15, C15);
+	
+	assign Cout = C15;
+	assign Sum[0] = S0;
+	assign Sum[1] = S1;
+	assign Sum[2] = S2;
+	assign Sum[3] = S3;
+	assign Sum[4] = S4;
+	assign Sum[5] = S5;
+	assign Sum[6] = S6;
+	assign Sum[7] = S7;
+	assign Sum[8] = S8;
+	assign Sum[9] = S9;
+	assign Sum[10] = S10;
+	assign Sum[11] = S11;
+	assign Sum[12] = S12;
+	assign Sum[13] = S13;
+	assign Sum[14] = S14;
+	assign Sum[15] = S15;	
+
+endmodule
+
+

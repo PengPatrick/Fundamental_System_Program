@@ -1,0 +1,326 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Duke/2022 fall/ECE 550/PRO/full_alu/simulation/modelsim
+valu
+Z1 !s110 1664768709
+!i10b 1
+!s100 `G=akXcWe_;kaVnHaUGo`3
+IAXzTQ87gF=Y@YnCYWGZDg0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1664634655
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/alu.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1664768709.000000
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu}
+Z7 tCvgOpt 0
+valu_tb
+Z8 !s110 1664768710
+!i10b 1
+!s100 `0JYfP[g_Fcf]JLEgSm`G3
+IJSXCg>oCXMgfeBb;_PodZ2
+R2
+R0
+w1664634884
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/alu_tb.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1664768710.000000
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vbarrel_shift_left
+R8
+!i10b 1
+!s100 9o^`54jlFJmP44RZbJ^he1
+I8h4fz=goLY8Hnj2LJ5_hY3
+R2
+R0
+w1664586659
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_left.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_left.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_left.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_left.v|
+!i113 1
+R5
+R6
+R7
+vbarrel_shift_right
+R8
+!i10b 1
+!s100 gFUJVj:PO2@L3iC8^OD]72
+I2KT=a^G9GD<83V=AIli5L0
+R2
+R0
+w1664590180
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_right.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_right.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_right.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/barrel_shift_right.v|
+!i113 1
+R5
+R6
+R7
+vbitwise_and
+R1
+!i10b 1
+!s100 GPV9O4R@cB54NWUS0UVVe2
+IiGl0E_0V3D<C=RZSSd6;z2
+R2
+R0
+w1664419805
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_and.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_and.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_and.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_and.v|
+!i113 1
+R5
+R6
+R7
+vbitwise_or
+R8
+!i10b 1
+!s100 iT4RQ`P7aSPd@?M34dMY>3
+I<8Tll=TWeI5DE0k1S`?bK2
+R2
+R0
+w1664419839
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_or.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_or.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_or.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/bitwise_or.v|
+!i113 1
+R5
+R6
+R7
+vCSA
+R1
+!i10b 1
+!s100 aE[f3iHW]H09zUJfY`dIh0
+I?JjZ=7UMX2c0UJ@h4:j=b1
+R2
+R0
+w1664418973
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/CSA.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/CSA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/CSA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/CSA.v|
+!i113 1
+R5
+R6
+R7
+n@c@s@a
+vFA
+R1
+!i10b 1
+!s100 j8Mb:g<5^S4mNfjWSa;QC2
+I_`[`2z8]^MIlm`nGjOgiz0
+R2
+R0
+w1663640479
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/FA.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/FA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/FA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/FA.v|
+!i113 1
+R5
+R6
+R7
+n@f@a
+visNotEqual
+R8
+!i10b 1
+!s100 >_2TPP?ZOToOo5897?HSO1
+IU5IlIA8mz?Y:NDbEkz@HK0
+R2
+R0
+w1664633874
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/isNotEqual.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/isNotEqual.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/isNotEqual.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/isNotEqual.v|
+!i113 1
+R5
+R6
+R7
+nis@not@equal
+vMux_1b_2to1
+R8
+!i10b 1
+!s100 THo>jM2PggF36lB66DPVM1
+IZY3_8GVCWIJn23Ac6e_l_1
+R2
+R0
+w1664583997
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_1b_2to1.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_1b_2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_1b_2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_1b_2to1.v|
+!i113 1
+R5
+R6
+R7
+n@mux_1b_2to1
+vMux_32b_2to1
+R8
+!i10b 1
+!s100 BcCFi0m4<LP4@7MiO:G[R2
+Ic4gbLMEG:InE_2`nA^^c]0
+R2
+R0
+w1664584006
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_2to1.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_2to1.v|
+!i113 1
+R5
+R6
+R7
+n@mux_32b_2to1
+vMux_32b_4to1
+R8
+!i10b 1
+!s100 biQbj<jh59l]Rh::4V0Fk1
+IKH76??55`<DObn2HAM_LS3
+R2
+R0
+w1664592147
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_4to1.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_4to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_4to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_4to1.v|
+!i113 1
+R5
+R6
+R7
+n@mux_32b_4to1
+vMux_32b_8to1
+R8
+!i10b 1
+!s100 @ULL>Oemn=G_6T_lb1Kj[0
+Ia1dBmh1?4WZ]KbN4Rf?b:3
+R2
+R0
+w1664634754
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_8to1.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_8to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_8to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/Mux_32b_8to1.v|
+!i113 1
+R5
+R6
+R7
+n@mux_32b_8to1
+vRCA
+R1
+!i10b 1
+!s100 OMHh0`9]N`=XcMN1;jWQP1
+I5KF;8^HRTH<zZhP=CAke71
+R2
+R0
+w1663984466
+8D:/Duke/2022 fall/ECE 550/PRO/full_alu/RCA.v
+FD:/Duke/2022 fall/ECE 550/PRO/full_alu/RCA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Duke/2022 fall/ECE 550/PRO/full_alu/RCA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Duke/2022 fall/ECE 550/PRO/full_alu|D:/Duke/2022 fall/ECE 550/PRO/full_alu/RCA.v|
+!i113 1
+R5
+R6
+R7
+n@r@c@a

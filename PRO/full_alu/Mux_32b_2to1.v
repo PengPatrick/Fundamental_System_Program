@@ -1,0 +1,9 @@
+module Mux_32b_2to1(A, B, sign, Out);
+	
+	input [31:0] A, B;
+	input sign;
+	output [31:0] Out;
+	
+	assign Out = sign ? A : B;
+	
+endmodule

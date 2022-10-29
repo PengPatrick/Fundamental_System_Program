@@ -1,0 +1,520 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/19/2022 13:12:28"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          alu
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module alu_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [4:0] ctrl_ALUopcode;
+reg [31:0] data_operandA;
+reg [31:0] data_operandB;
+// wires                                               
+wire [31:0] data_result;
+wire overflow;
+
+// assign statements (if any)                          
+alu i1 (
+// port map - connection between master ports and signals/registers   
+	.ctrl_ALUopcode(ctrl_ALUopcode),
+	.data_operandA(data_operandA),
+	.data_operandB(data_operandB),
+	.data_result(data_result),
+	.overflow(overflow)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// ctrl_ALUopcode[ 4 ]
+initial
+begin
+	ctrl_ALUopcode[4] = 1'b0;
+end 
+// ctrl_ALUopcode[ 3 ]
+initial
+begin
+	ctrl_ALUopcode[3] = 1'b0;
+end 
+// ctrl_ALUopcode[ 2 ]
+initial
+begin
+	ctrl_ALUopcode[2] = 1'b0;
+end 
+// ctrl_ALUopcode[ 1 ]
+initial
+begin
+	ctrl_ALUopcode[1] = 1'b0;
+end 
+// ctrl_ALUopcode[ 0 ]
+initial
+begin
+	ctrl_ALUopcode[0] = 1'b0;
+	ctrl_ALUopcode[0] = #320000 1'b1;
+	ctrl_ALUopcode[0] = #320000 1'b0;
+end 
+// data_operandA[ 31 ]
+initial
+begin
+	data_operandA[31] = 1'b0;
+	data_operandA[31] = #320000 1'b1;
+	data_operandA[31] = #160000 1'b0;
+end 
+// data_operandA[ 30 ]
+initial
+begin
+	data_operandA[30] = 1'b0;
+	data_operandA[30] = #320000 1'b1;
+	data_operandA[30] = #160000 1'b0;
+end 
+// data_operandA[ 29 ]
+initial
+begin
+	data_operandA[29] = 1'b0;
+	data_operandA[29] = #320000 1'b1;
+	data_operandA[29] = #160000 1'b0;
+end 
+// data_operandA[ 28 ]
+initial
+begin
+	data_operandA[28] = 1'b0;
+	data_operandA[28] = #320000 1'b1;
+	data_operandA[28] = #160000 1'b0;
+end 
+// data_operandA[ 27 ]
+initial
+begin
+	data_operandA[27] = 1'b1;
+	data_operandA[27] = #160000 1'b0;
+	data_operandA[27] = #160000 1'b1;
+	data_operandA[27] = #320000 1'b0;
+end 
+// data_operandA[ 26 ]
+initial
+begin
+	data_operandA[26] = 1'b1;
+	data_operandA[26] = #160000 1'b0;
+	data_operandA[26] = #160000 1'b1;
+	data_operandA[26] = #320000 1'b0;
+end 
+// data_operandA[ 25 ]
+initial
+begin
+	data_operandA[25] = 1'b1;
+	data_operandA[25] = #640000 1'b0;
+end 
+// data_operandA[ 24 ]
+initial
+begin
+	data_operandA[24] = 1'b0;
+	data_operandA[24] = #160000 1'b1;
+	data_operandA[24] = #480000 1'b0;
+end 
+// data_operandA[ 23 ]
+initial
+begin
+	data_operandA[23] = 1'b0;
+	data_operandA[23] = #160000 1'b1;
+	data_operandA[23] = #480000 1'b0;
+end 
+// data_operandA[ 22 ]
+initial
+begin
+	data_operandA[22] = 1'b0;
+	data_operandA[22] = #160000 1'b1;
+	data_operandA[22] = #160000 1'b0;
+	data_operandA[22] = #160000 1'b1;
+	data_operandA[22] = #160000 1'b0;
+end 
+// data_operandA[ 21 ]
+initial
+begin
+	data_operandA[21] = 1'b0;
+	data_operandA[21] = #160000 1'b1;
+	data_operandA[21] = #160000 1'b0;
+	data_operandA[21] = #160000 1'b1;
+	data_operandA[21] = #160000 1'b0;
+end 
+// data_operandA[ 20 ]
+initial
+begin
+	data_operandA[20] = 1'b0;
+	data_operandA[20] = #480000 1'b1;
+	data_operandA[20] = #160000 1'b0;
+end 
+// data_operandA[ 19 ]
+initial
+begin
+	data_operandA[19] = 1'b0;
+	data_operandA[19] = #160000 1'b1;
+	data_operandA[19] = #160000 1'b0;
+	data_operandA[19] = #160000 1'b1;
+	data_operandA[19] = #160000 1'b0;
+end 
+// data_operandA[ 18 ]
+initial
+begin
+	data_operandA[18] = 1'b0;
+	data_operandA[18] = #160000 1'b1;
+	data_operandA[18] = #480000 1'b0;
+end 
+// data_operandA[ 17 ]
+initial
+begin
+	data_operandA[17] = 1'b1;
+	data_operandA[17] = #640000 1'b0;
+end 
+// data_operandA[ 16 ]
+initial
+begin
+	data_operandA[16] = 1'b1;
+	data_operandA[16] = #640000 1'b0;
+end 
+// data_operandA[ 15 ]
+initial
+begin
+	data_operandA[15] = 1'b1;
+	data_operandA[15] = #640000 1'b0;
+end 
+// data_operandA[ 14 ]
+initial
+begin
+	data_operandA[14] = 1'b1;
+	data_operandA[14] = #480000 1'b0;
+end 
+// data_operandA[ 13 ]
+initial
+begin
+	data_operandA[13] = 1'b1;
+	data_operandA[13] = #480000 1'b0;
+end 
+// data_operandA[ 12 ]
+initial
+begin
+	data_operandA[12] = 1'b1;
+	data_operandA[12] = #480000 1'b0;
+end 
+// data_operandA[ 11 ]
+initial
+begin
+	data_operandA[11] = 1'b1;
+	data_operandA[11] = #320000 1'b0;
+end 
+// data_operandA[ 10 ]
+initial
+begin
+	data_operandA[10] = 1'b1;
+	data_operandA[10] = #160000 1'b0;
+	data_operandA[10] = #320000 1'b1;
+	data_operandA[10] = #160000 1'b0;
+end 
+// data_operandA[ 9 ]
+initial
+begin
+	data_operandA[9] = 1'b1;
+	data_operandA[9] = #160000 1'b0;
+	data_operandA[9] = #320000 1'b1;
+	data_operandA[9] = #160000 1'b0;
+end 
+// data_operandA[ 8 ]
+initial
+begin
+	data_operandA[8] = 1'b1;
+	data_operandA[8] = #320000 1'b0;
+	data_operandA[8] = #160000 1'b1;
+	data_operandA[8] = #160000 1'b0;
+end 
+// data_operandA[ 7 ]
+initial
+begin
+	data_operandA[7] = 1'b0;
+	data_operandA[7] = #160000 1'b1;
+	data_operandA[7] = #480000 1'b0;
+end 
+// data_operandA[ 6 ]
+initial
+begin
+	data_operandA[6] = 1'b0;
+	data_operandA[6] = #160000 1'b1;
+	data_operandA[6] = #480000 1'b0;
+end 
+// data_operandA[ 5 ]
+initial
+begin
+	data_operandA[5] = 1'b0;
+	data_operandA[5] = #160000 1'b1;
+	data_operandA[5] = #480000 1'b0;
+end 
+// data_operandA[ 4 ]
+initial
+begin
+	data_operandA[4] = 1'b0;
+	data_operandA[4] = #160000 1'b1;
+	data_operandA[4] = #480000 1'b0;
+end 
+// data_operandA[ 3 ]
+initial
+begin
+	data_operandA[3] = 1'b0;
+	data_operandA[3] = #160000 1'b1;
+	data_operandA[3] = #320000 1'b0;
+end 
+// data_operandA[ 2 ]
+initial
+begin
+	data_operandA[2] = 1'b1;
+	data_operandA[2] = #320000 1'b0;
+end 
+// data_operandA[ 1 ]
+initial
+begin
+	data_operandA[1] = 1'b1;
+	data_operandA[1] = #160000 1'b0;
+end 
+// data_operandA[ 0 ]
+initial
+begin
+	data_operandA[0] = 1'b1;
+	data_operandA[0] = #160000 1'b0;
+end 
+// data_operandB[ 31 ]
+initial
+begin
+	data_operandB[31] = 1'b0;
+	data_operandB[31] = #160000 1'b1;
+	data_operandB[31] = #320000 1'b0;
+end 
+// data_operandB[ 30 ]
+initial
+begin
+	data_operandB[30] = 1'b0;
+	data_operandB[30] = #320000 1'b1;
+	data_operandB[30] = #160000 1'b0;
+end 
+// data_operandB[ 29 ]
+initial
+begin
+	data_operandB[29] = 1'b1;
+	data_operandB[29] = #160000 1'b0;
+	data_operandB[29] = #160000 1'b1;
+	data_operandB[29] = #160000 1'b0;
+end 
+// data_operandB[ 28 ]
+initial
+begin
+	data_operandB[28] = 1'b0;
+	data_operandB[28] = #320000 1'b1;
+	data_operandB[28] = #320000 1'b0;
+end 
+// data_operandB[ 27 ]
+initial
+begin
+	data_operandB[27] = 1'b0;
+	data_operandB[27] = #320000 1'b1;
+	data_operandB[27] = #320000 1'b0;
+end 
+// data_operandB[ 26 ]
+initial
+begin
+	data_operandB[26] = 1'b1;
+	data_operandB[26] = #160000 1'b0;
+	data_operandB[26] = #160000 1'b1;
+	data_operandB[26] = #320000 1'b0;
+end 
+// data_operandB[ 25 ]
+initial
+begin
+	data_operandB[25] = 1'b1;
+	data_operandB[25] = #160000 1'b0;
+	data_operandB[25] = #160000 1'b1;
+	data_operandB[25] = #320000 1'b0;
+end 
+// data_operandB[ 24 ]
+initial
+begin
+	data_operandB[24] = 1'b1;
+	data_operandB[24] = #160000 1'b0;
+	data_operandB[24] = #160000 1'b1;
+	data_operandB[24] = #160000 1'b0;
+end 
+// data_operandB[ 23 ]
+initial
+begin
+	data_operandB[23] = 1'b1;
+	data_operandB[23] = #160000 1'b0;
+	data_operandB[23] = #160000 1'b1;
+	data_operandB[23] = #160000 1'b0;
+end 
+// data_operandB[ 22 ]
+initial
+begin
+	data_operandB[22] = 1'b1;
+	data_operandB[22] = #160000 1'b0;
+end 
+// data_operandB[ 21 ]
+initial
+begin
+	data_operandB[21] = 1'b1;
+	data_operandB[21] = #320000 1'b0;
+	data_operandB[21] = #160000 1'b1;
+	data_operandB[21] = #160000 1'b0;
+end 
+// data_operandB[ 20 ]
+initial
+begin
+	data_operandB[20] = 1'b1;
+	data_operandB[20] = #320000 1'b0;
+	data_operandB[20] = #160000 1'b1;
+	data_operandB[20] = #160000 1'b0;
+end 
+// data_operandB[ 19 ]
+initial
+begin
+	data_operandB[19] = 1'b1;
+	data_operandB[19] = #320000 1'b0;
+	data_operandB[19] = #160000 1'b1;
+	data_operandB[19] = #160000 1'b0;
+end 
+// data_operandB[ 18 ]
+initial
+begin
+	data_operandB[18] = 1'b1;
+	data_operandB[18] = #320000 1'b0;
+	data_operandB[18] = #160000 1'b1;
+	data_operandB[18] = #160000 1'b0;
+end 
+// data_operandB[ 17 ]
+initial
+begin
+	data_operandB[17] = 1'b1;
+	data_operandB[17] = #320000 1'b0;
+end 
+// data_operandB[ 16 ]
+initial
+begin
+	data_operandB[16] = 1'b1;
+	data_operandB[16] = #320000 1'b0;
+end 
+// data_operandB[ 15 ]
+initial
+begin
+	data_operandB[15] = 1'b1;
+	data_operandB[15] = #480000 1'b0;
+end 
+// data_operandB[ 14 ]
+initial
+begin
+	data_operandB[14] = 1'b1;
+	data_operandB[14] = #480000 1'b0;
+end 
+// data_operandB[ 13 ]
+initial
+begin
+	data_operandB[13] = 1'b1;
+	data_operandB[13] = #480000 1'b0;
+end 
+// data_operandB[ 12 ]
+initial
+begin
+	data_operandB[12] = 1'b1;
+	data_operandB[12] = #480000 1'b0;
+end 
+// data_operandB[ 11 ]
+initial
+begin
+	data_operandB[11] = 1'b1;
+	data_operandB[11] = #480000 1'b0;
+end 
+// data_operandB[ 10 ]
+initial
+begin
+	data_operandB[10] = 1'b0;
+	data_operandB[10] = #160000 1'b1;
+	data_operandB[10] = #320000 1'b0;
+end 
+// data_operandB[ 9 ]
+initial
+begin
+	data_operandB[9] = 1'b0;
+	data_operandB[9] = #160000 1'b1;
+	data_operandB[9] = #160000 1'b0;
+end 
+// data_operandB[ 8 ]
+initial
+begin
+	data_operandB[8] = 1'b0;
+	data_operandB[8] = #160000 1'b1;
+	data_operandB[8] = #160000 1'b0;
+end 
+// data_operandB[ 7 ]
+initial
+begin
+	data_operandB[7] = 1'b0;
+end 
+// data_operandB[ 6 ]
+initial
+begin
+	data_operandB[6] = 1'b1;
+	data_operandB[6] = #160000 1'b0;
+	data_operandB[6] = #680000 1'b1;
+end 
+// data_operandB[ 5 ]
+initial
+begin
+	data_operandB[5] = 1'b1;
+	data_operandB[5] = #160000 1'b0;
+	data_operandB[5] = #680000 1'b1;
+end 
+// data_operandB[ 4 ]
+initial
+begin
+	data_operandB[4] = 1'b1;
+	data_operandB[4] = #160000 1'b0;
+	data_operandB[4] = #680000 1'b1;
+end 
+// data_operandB[ 3 ]
+initial
+begin
+	data_operandB[3] = 1'b0;
+end 
+// data_operandB[ 2 ]
+initial
+begin
+	data_operandB[2] = 1'b0;
+end 
+// data_operandB[ 1 ]
+initial
+begin
+	data_operandB[1] = 1'b0;
+end 
+// data_operandB[ 0 ]
+initial
+begin
+	data_operandB[0] = 1'b0;
+end 
+endmodule
+

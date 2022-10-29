@@ -1,0 +1,23 @@
+module isNotEqual(A, B, Out);
+	input [31:0] A, B;
+	output Out;
+	
+	wire [31:0] C1;
+	genvar i1;
+	
+	generate
+		for(i1 = 0; i1 < 32; i1 = i1 + 1) begin : xnor1
+			xnor xnor1(C1[i1], A[i1], B[i1]);
+		end
+	endgenerate
+	
+	genvar j;
+	
+	generate
+		for(j = 0; j < 32; j = j + 1) begin : and1
+			and and1(Out, A[j], B[j]);
+		end
+	endgenerate
+	
+
+endmodule
